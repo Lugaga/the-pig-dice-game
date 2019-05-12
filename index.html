@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,13 +14,75 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-       <!-- Material Design Bootstrap -->
+    <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- My custom styles -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=VT323"
+    <link href="https://fonts.googleapis.com/css?family=VT323">
 </head>
+
 <body>
-    
+    <!-- Start your project here-->
+    <section class="pig-dice-playerz hide-this-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 login-sec">
+                    <h2 class="text-center">Player Names</h2>
+                    <form class="login-form" id="initialize-pig-dice-player">
+                        <div class="form-group">
+                            <label class="text-uppercase">Player One</label>
+                            <input type="text" class="form-control" id="pig-dice-player-one-name"
+                                placeholder="Kindly Enter Your Name">
+
+                        </div>
+                        <div class="form-group">
+                            <label class="text-uppercase font-weight-bold text-warning">Player Two</label>
+                            <input type="text" class="form-control" id="pig-dice-player-one-name"
+                                placeholder="Kindly Enter Your Name">
+                        </div>
+                        <button type="submit" class="btn btn-login text-dark">Start The Game</button>
+                    </form>
+                </div>
+                <div class="col-md-8 banner-sec">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img class="d-block img-fluid" src="img/carousel/slide-image-1.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <div class="banner-text">
+                                        <h2>A Game of Numbers</h2>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid" src="img/carousel/slide-image-2.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <div class="banner-text">
+                                        <h2></h2>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid" src="img/carousel/slide-image-3.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <div class="banner-text">
+                                        <h2></h2>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
 </body>
 </html>
