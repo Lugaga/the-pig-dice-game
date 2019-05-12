@@ -37,4 +37,5 @@ https://lugaga.github.io/the-pig-dice-game
 ## License
 
 Copyright © 2019, Engineer Lugaga. Released under the MIT License- see the LICENSE.md file for details.
+https://github.com/Lugaga/the-pig-dice-game/blob/master/LICENSE
 
