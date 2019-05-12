@@ -30,7 +30,7 @@
                     <h2 class="text-center">Player Names</h2>
                     <form class="login-form" id="initialize-pig-dice-player">
                         <div class="form-group">
-                            <label class="text-uppercase">Player One</label>
+                            <label class="text-uppercase font-weight-bold text-warning">Player One</label>
                             <input type="text" class="form-control" id="pig-dice-player-one-name"
                                 placeholder="Kindly Enter Your Name">
 
@@ -56,7 +56,6 @@
                                 <div class="carousel-caption d-none d-md-block">
                                     <div class="banner-text">
                                         <h2>A Game of Numbers</h2>
-                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -64,8 +63,7 @@
                                 <img class="d-block img-fluid" src="img/carousel/slide-image-2.jpg" alt="First slide">
                                 <div class="carousel-caption d-none d-md-block">
                                     <div class="banner-text">
-                                        <h2></h2>
-                                        <p></p>
+                                        <h2>Make It Count</h2>
                                     </div>
                                 </div>
                             </div>
@@ -73,8 +71,7 @@
                                 <img class="d-block img-fluid" src="img/carousel/slide-image-3.jpg" alt="First slide">
                                 <div class="carousel-caption d-none d-md-block">
                                     <div class="banner-text">
-                                        <h2></h2>
-                                        <p></p>
+                                        <h2>Take Your Chance</h2>
                                     </div>
                                 </div>
                             </div>
@@ -85,70 +82,80 @@
             </div>
     </section>
     <div class="container the-pig-dice-game">
-            <hr class="extra-margins">
-    
-            <!--row-->
-            <div class="row">
-                <!--First columnn-->
-                <div class="col-lg-4">
-                    <!--Card-->
-                      <!--First column-->
-                         
-                      <div class="pig-dice-player-one-section">
-                            <h1>Player Number One: <span class="pig-dice-player-one-name"></span></h1>
-                           <div class="pig-dice-player-one">
-                              <h2>Dice Number: <span class="pig-dice-player-one-roll-dyce"></span></h2>
-                              <h2>Your Points: <span class="pig-dice-player-one-points"></span></h2>
-                              <h2>Accumulated Points: <span class="accumulated-player-one-points"></span></h2>
-                              <button type="submit" id="pig-dice-player-one-roll-dice-submit" class="btn btn-danger">Roll The Dice</button>
-                              <button type="submit" id="pig-dice-player-one-hold-points" class="btn btn-primary">Hold My Points</button>
-                            </div>
-                            <div class="pig-dice-player-one-roll-dice-notification">
-                              <h2>Damn!! ,You rolled 1.It is Player 2's turn to play.</h2>
-                            </div>
-                          </div>
-                      <!--/First column-->
-                    <!--/.Card-->
-                </div>
-                 <!--Second columnn-->
+        <hr class="extra-margins">
+
+        <!--row-->
+        <div class="row">
+            <!--First columnn-->
             <div class="col-lg-4">
-                    <!--Card-->
-                    <img src="img/versus.png" alt="">
-    
-                        <!--Card image-->
-                        
-                    <!--/.Card-->
-    
-                </div>
-                <!--Second columnn-->
-                <!--Third columnn-->
-            <div class="col-lg-4">
-                    <!--Card-->
-                    
-                          <!--Third column-->
-                          <div class="pig-dice-player-two-section">
-                                <h1>Player Number Two: <span class="pig-dice-player-two-name"></span></h1>
-                                  <div class="pig-dice-player-two">
-                                  <h2>Dice Number : <span class="pig-dice-player-two-roll-dyce"></span></h2>
-                                  <h2>Points: <span class="pig-dice-player-two-points"></span></h2>
-                                  <h2>Accumulated Points: <span class="accumulated-player-one-points"></span></h2>
-                                  <button type="submit" id="pig-dice-player-two-roll-dice-submit" class="btn btn-danger">Roll The Dice</button>
-                                  <button type="submit" id="pig-dice-player-two-hold-points" class="btn btn-primary">Hold My Points</button>
-                                </div>
-                                <div class="pig-dice-player-two-roll-dice-notification">
-                                  <h2><strong>Damn!! ,You rolled 1.It is Player 1's turn to play.</strong></h2>
-                                </div>
-                              </div>
-                            <!--/Third column-->
-                        </div>
-                        <!--Third columnn-->
+                <!--Card-->
+                <!--First column-->
+
+                <div class="pig-dice-player-one-section">
+                    <h1>Player Number One: <span class="pig-dice-player-one-name"></span></h1>
+                    <div class="pig-dice-player-one">
+                        <h2>Dice Number: <span class="pig-dice-player-one-roll-dyce"></span></h2>
+                        <h2>Your Points: <span class="pig-dice-player-one-points"></span></h2>
+                        <h2>Accumulated Points: <span class="accumulated-player-one-points"></span></h2>
+                        <button type="submit" id="pig-dice-player-one-roll-dice-submit" class="btn btn-success">Roll The
+                            Dice</button>
+                        <button type="submit" id="pig-dice-player-one-hold-points" class="btn btn-warning">Hold My
+                            Points</button>
                     </div>
-                    <!--/.Second row-->
+                    <div class="pig-dice-player-one-roll-dice-notification">
+                        <h2>Damn!! ,You rolled 1.It is Player 2's turn to play.</h2>
+                    </div>
                 </div>
+                <!--/First column-->
+                <!--/.Card-->
             </div>
+            <!--Second columnn-->
+            <div class="col-lg-4">
+                <!--Card-->
+                <img src="img/versus.png" alt="">
+
+                <!--Card image-->
+
+                <!--/.Card-->
+
+            </div>
+            <!--Second columnn-->
+            <!--Third columnn-->
+            <div class="col-lg-4">
+                <!--Card-->
+
+                <!--Third column-->
+                <div class="pig-dice-player-two-section">
+                    <h1>Player Number Two: <span class="pig-dice-player-two-name"></span></h1>
+                    <div class="pig-dice-player-two">
+                        <h2>Dice Number : <span class="pig-dice-player-two-roll-dyce"></span></h2>
+                        <h2>Points: <span class="pig-dice-player-two-points"></span></h2>
+                        <h2>Accumulated Points: <span class="accumulated-player-one-points"></span></h2>
+                        <button type="submit" id="pig-dice-player-two-roll-dice-submit" class="btn btn-success">Roll The
+                            Dice</button>
+                        <button type="submit" id="pig-dice-player-two-hold-points" class="btn btn-warning">Hold My
+                            Points</button>
+                    </div>
+                    <div class="pig-dice-player-two-roll-dice-notification">
+                        <h2><strong>Damn!! ,You rolled 1.It is Player 1's turn to play.</strong></h2>
+                    </div>
+                </div>
+                <!--/Third column-->
+            </div>
+            <!--Third columnn-->
         </div>
-        </div>
-        <!-- SCRIPTS -->
+        <!--/.Second row-->
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="pig-dice-player-one-win">
+        <h1>Congratulations Amigo!! You Won</h1>
+    </div>
+    <div class="pig-dice-player-two-win">
+        <h1>Congratulations Amigo!! You Won</h1>
+    </div>
+    <!-- SCRIPTS -->
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
     <!-- Bootstrap tooltips -->
@@ -161,4 +168,5 @@
     <script type="text/javascript" src="js/scripts.js"></script>
     <!-- End SCRIPTS -->
 </body>
+
 </html>
